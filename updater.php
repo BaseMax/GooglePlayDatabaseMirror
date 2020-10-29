@@ -49,3 +49,27 @@ function insertApps($apps) {
         insertApp($app);
     }
 }
+
+$google = new GooglePlay();
+
+// $app=$google->parseApplication("com.vpn.free.hotspot.secure.vpnify");
+// insertApp($app);
+
+// $app=$google->parseApplication("com.bezapps.flowdiademo");
+// insertApp($app);
+
+$apps=$google->parseSearch("telegram");
+insertApps($apps);
+
+// $apps=$google->parseCategory("TOOLS");
+// insertApps($apps);
+
+// $alphas = range('A', 'Z');
+// foreach($alphas as $alpha) {
+//     $apps=$google->parseSearch($alpha);
+//     insertApps($apps);
+//     foreach($alphas as $alpha2) {
+//         $apps=$google->parseSearch($alpha.$alpha2);
+//         insertApps($apps);
+//     }
+// }
