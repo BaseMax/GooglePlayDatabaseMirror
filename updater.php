@@ -1,11 +1,16 @@
-<?php echo "The time is " . date("h:i:sa"); ?> 
 <?php
-// Max Base
-// film2serial-api-service-crawler
+/*
+ * @Author: Max Base
+ * @Repository: https://github.com/BaseMax/GooglePlayDatabaseMirror/new/main
+ * @Date: 2020-10-29
+*/
+require "google-play.php";
+// require "NetPHP.php";
+require "phpedb.php";
+
 ini_set('max_execution_time', 0);
 set_time_limit(0);
-require "NetPHP.php";
-require "phpedb.php";
+echo "The time is " . date("h:i:sa");
 // use \Datetime;
 
 $db=new database();
