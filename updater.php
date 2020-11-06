@@ -1,5 +1,6 @@
 <?php
 /*
+ * @Name:  Google Play Database Mirror
  * @Author: Max Base
  * @Repository: https://github.com/BaseMax/GooglePlayDatabaseMirror
  * @Date: 2020-10-29, 2020-11-06
@@ -59,29 +60,23 @@ $google = new GooglePlay();
 // $app=$google->parseApplication("com.bezapps.flowdiademo");
 // insertApp($app);
 
-
 /*
 $apps=$google->parseSearch("Taxi");
 insertApps($apps);
 */
 
-
 // $apps=$google->parseCategory("TRAVEL");
 // insertApps($apps);
-
-
-
-
 
 /*
 $alphas = range('A', 'Z');
 foreach($alphas as $alpha) {
-$apps=$google->parseSearch($alpha);
-insertApps($apps);
-foreach($alphas as $alpha2) {
-$apps=$google->parseSearch($alpha.$alpha2);
-insertApps($apps);
-}
+    $apps=$google->parseSearch($alpha);
+    insertApps($apps);
+    foreach($alphas as $alpha2) {
+        $apps=$google->parseSearch($alpha.$alpha2);
+        insertApps($apps);
+    }
 }
 */
 
