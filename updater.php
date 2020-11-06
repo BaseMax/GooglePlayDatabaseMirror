@@ -1,7 +1,9 @@
 <?php
 /*
  * @Name:  Google Play Database Mirror
+ * @Version: 0.3
  * @Author: Max Base
+ * @Released under : https://github.com/BaseMax/GooglePlayDatabaseMirror/blob/master/LICENSE
  * @Repository: https://github.com/BaseMax/GooglePlayDatabaseMirror
  * @Date: 2020-10-29, 2020-11-06
 */
