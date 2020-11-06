@@ -10,6 +10,10 @@ Run daily:
 $ php updater.php
 ```
 
+### Related Repositories
+
+- https://github.com/BaseMax/GooglePlayWebServiceAPI
+
 ---------
 
 # Max Base
