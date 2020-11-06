@@ -41,14 +41,14 @@ function insertApp($app) {
 }
 
 function insertApps($apps) {
-global $google;
-foreach($apps as $app) {
-$app=$google->parseApplication($app);
-if($app == []) {
-continue;
-}
-insertApp($app);
-}
+    global $google;
+    foreach($apps as $app) {
+        $app=$google->parseApplication($app);
+        if($app == []) {
+            continue;
+        }
+        insertApp($app);
+    }
 }
 
 $google = new GooglePlay();
