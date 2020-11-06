@@ -8,8 +8,8 @@
  * @Date: 2020-10-29, 2020-11-06
 */
 
-require "google-play.php";
-require "phpedb.php";
+require "src/google-play.php";
+require "src/phpedb.php";
 
 $db=new database();
 $db->connect("localhost", "phpcrawler", "******##!!!");
