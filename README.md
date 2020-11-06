@@ -10,6 +10,10 @@ Run daily:
 $ php updater.php
 ```
 
+About one hundred thousand applications extracted from this script:
+
+![Google Play Database Mirror](demo.png)
+
 ### Related Repositories
 
 - https://github.com/BaseMax/GooglePlayWebServiceAPI
